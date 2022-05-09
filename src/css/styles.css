@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255, 240, 242);
+}
+
+p {
+  margin-top: 0;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+.content-item-wrapper {
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgb(206, 202, 202);
+  border-radius: 10px;
+  background-color: white;
+}
+.content-item-wrapper:not(:last-child) {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
